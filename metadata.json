@@ -1,0 +1,5 @@
+{
+  "name": "VibeFit AI",
+  "description": "A virtual try-on application that uses AI to show you how you would look wearing different outfits. Upload a photo of yourself and an outfit to see a realistic composite image.",
+  "requestFramePermissions": []
+}
