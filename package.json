@@ -1,5 +1,5 @@
 {
-  "name": "vibefit-ai",
+  "name": "looklab-ai",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.1.1",
+    "@dotlottie/react-player": "^1.6.19",
     "@google/genai": "^1.16.0",
-    "react-dom": "^19.1.1"
+    "@lottiefiles/dotlottie-react": "^0.15.2",
+    "@tailwindcss/vite": "^4.1.13",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

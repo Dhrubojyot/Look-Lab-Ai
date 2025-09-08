@@ -30,13 +30,13 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({ label, description
   
   return (
     <div className="flex flex-col items-center">
-        <h4 className="text-base font-medium text-primary">{label}</h4>
+        <h4 className="text-base font-medium text-green-700">{label}</h4>
         <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">{description}</p>
         <div
             onClick={handleClick}
-            className="w-full h-48 border border-border-color rounded-md flex justify-center items-center cursor-pointer hover:border-primary/50 hover:bg-ui-bg transition-all duration-300"
+            className="w-full h-48 border border-green-700/50 rounded-md flex justify-center items-center cursor-pointer hover:border-green-700/50 hover:bg-green-700/5 transition-all duration-300"
         >
-            <input
+            <input          
                 type="file"
                 ref={fileInputRef}
                 onChange={handleFileChange}

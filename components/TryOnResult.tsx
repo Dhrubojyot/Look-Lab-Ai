@@ -22,8 +22,8 @@ export const TryOnResult: React.FC<TryOnResultProps> = ({ originalImage, generat
         <div className="mt-6 text-center">
             <a
             href={generatedImage}
-            download="vibefit-ai-try-on.png"
-            className="inline-flex items-center font-medium text-primary hover:underline"
+            download="looklab-ai.png"
+            className="inline-flex items-center font-medium text-green-700 hover:underline"
             >
                 <DownloadIcon className="w-4 h-4 mr-2" />
                 Download Image

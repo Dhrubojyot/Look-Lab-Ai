@@ -1,0 +1,13 @@
+.image-uploader {
+    border: 2px dashed #a7f3d0;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    background: rgba(167, 243, 208, 0.1);
+  }
+  
+  .image-uploader:hover {
+    border-color: #10b981;
+    background: rgba(16, 185, 129, 0.15);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(16, 185, 129, 0.1);
+  }
